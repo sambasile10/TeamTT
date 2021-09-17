@@ -1,4 +1,3 @@
 readme
-Ayo its ya boy
-Project Team Members: Sam Basile
-edited README.md on main
+Ayo its ya boy 
+Project Team Members: Maya Greenstein, Sam Basile, Max Page
