@@ -1,0 +1,14 @@
+.invis_link{
+  visibility: hidden;
+}
+.pop_text{
+  color: #808080;
+  text-shadow: -1px -1px 0 #FFFFFF,
+                1px -1px 0 #FFFFFF,
+                -1px 1px 0 #FFFFFF,
+                1px 1px 0 #FFFFFF,
+                -2px 0 0 #FFFFFF,
+                2px 0 0 #FFFFFF,
+                0 2px 0 #FFFFFF,
+                0 -2px 0 #FFFFFF;
+}
