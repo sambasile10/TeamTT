@@ -1,0 +1,39 @@
+roller board where wheels lock just before takeoff, or when force is applied
+
+use piston to simulate compression
+	
+keep force profile constant throughout takeoff
+
+maximize force of takeoff and minimizing drag polar
+pareto front
+
+machine learning to optimize form
+
+focus on simulation and data collection from that, stretch to in-jump data acquistion and correlation to performance
+
+performance over portability
+
+
+minimize difference between training and actual jump
+forces more important than speed
+
+rewarding physical feedback, correct force profile leeds to higher jumps
+
+fis has standard jumps
+
+find one model jump to start
+
+monday 8am meeting
+
+air density based on location
+
+
+
+
+
+
+X. Xu and Q. Wang, "Speed control of hydraulic elevator by using PID controller and self-tuning fuzzy PID controller," 2017 32nd Youth Academic Annual Conference of Chinese Association of Automation (YAC), 2017, pp. 812-817, doi: 10.1109/YAC.2017.7967521.
+
+B. Zhao, Z. Quan, Y. W. Li, L. Quan, Y. Hao and L. Ding, "A Hybrid-Driven Elevator System With Energy Regeneration and Safety Enhancement," in IEEE Transactions on Industrial Electronics, vol. 67, no. 9, pp. 7715-7726, Sept. 2020, doi: 10.1109/TIE.2019.2941141.
+
+S. Lee, S. Kim, S. Saha, Y. Zhu and Y. Cho, "Optimal Structure Design for Minimizing Detent Force of PMLSM for a Ropeless Elevator," in IEEE Transactions on Magnetics, vol. 50, no. 1, pp. 1-4, Jan. 2014, Art no. 4001104, doi:
