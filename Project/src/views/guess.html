@@ -7,6 +7,11 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta name="description" content="" />
+    <link href='https://fonts.googleapis.com/css?family=Bevan' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
     <title>Draw Chat</title>
     <!-- Bootstrap core CSS -->
     <link
@@ -21,12 +26,20 @@
     <style>
     body {
       background-color:#FBCBC9;
-      background-image: url("../resources/imgs/background.png");
+      width:50%; /* conditional based on screen size? */
+      margin: auto;
+      font-family: 'Pacifico';
+      font-size: 50px;
+      color: #52a4a7;
+      /*background-image: url("../resources/imgs/background.png");
       background-attachment: fixed;
       background-position: center;
-      background-repeat: no-repeat;
+      background-repeat: no-repeat; */
     }
     </style>
+
+    <div class="container" style="text-align:right" id="app"></div>
+    <div class="container" style="text-align:right" id="score_spot"></div>
 
     <div class="container" margin-left="auto" margin-right="auto">
       <br />
@@ -36,14 +49,13 @@
               id="drawing"
               src=""
               alt="Placeholder for Drawing"
-              width="100%"
             />
           </div>
     </div>
 
     <script>
     var guesses = [];
-    var ans = "dog";
+    var ans = "dog"; //make this sql call
     </script>
 
 
@@ -72,15 +84,11 @@
 
     <br />
     <center>
-      <h3 class="pop_text">Guesses</h3>
+      <h3 style="font-family: 'Bevan'; color: #731b2a">Guesses</h3>
     </center>
     <center>
       <div class="container" margin-left="auto" margin-right="auto">
-        <h5 id="guesses_list" class="pop_text" /h5>
-      </div>
-
-      <div class="container" margin-left="auto" margin-right="auto">
-        <h5 id="score" class="pop_text" /h5>
+        <h5 id="guesses_list" style="font-family: 'Bevan'" /h5>
       </div>
     </center>
 
@@ -100,6 +108,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="../resources/js/scripts.js"></script>
+    <script src="../resources/js/App.js"></script>
     <link rel="stylesheet" href="../resources/css/scripts.css"></link>
 
   </body>

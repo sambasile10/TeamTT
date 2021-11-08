@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS Games CASCADE;
+CREATE TABLE IF NOT EXISTS Games(
+  GameCode INT,
+  UsersInGame VARCHAR(45),
+  CurrentImage VARCHAR(45),
+  ImageTimeStamp DATETIME,
+  Winner VARCHAR(45)
+)
+
+DROP TABLE IF EXISTS Users CASCADE;
+CREATE TABLE IF NOT EXISTS Users(
+    UserID SERIAL,
+    GameCode INT,
+    UserName VARCHAR(45),
+    UserScore INT
+);
